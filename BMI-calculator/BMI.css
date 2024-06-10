@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.input1{
+  border:2px solid rgb(22, 148, 211);
+  border-radius: 10px;
+  height:30px
+}
+.input2{
+   
+}
+nav{
+    height:50px;
+    background-color:rgb(22, 148, 211);
+    color:azure;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.body1{
+font-size: 50px;
+padding-left: 20px;
+
+}
+.body2{
+    margin-left: 5px;;
+   height:300px;
+   width:50%;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 3px solid rgb(22, 148, 211);
+   border-radius: 50px;
+}
+.same1{
+    margin: 5px;
+    height: 60px; 
+    
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.p1{
+  display:inline-block;
+  position: relative;
+  top:15px;
+  left:30px;
+}
+
+.p2{
+    position:relative;
+    top:10px;
+    left:30px;
+    display:inline-block;
+    margin-right: 7px;
+}
+
+.female{
+
+    margin-left: 15px;
+}
+.p3{
+    display:inline-block;
+    position: relative;
+    top:15px;
+    left:25px;
+}
+.p4{
+    position: relative;
+    top:15px;
+    left:30px;
+}
+.body3{
+    padding-left: 30px;
+    margin-left: 5px;
+    height:300px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bolder;
+
+    border: 3px solid rgb(22, 148, 211);
+    border-radius: 50px;
+}
+.main{
+    display:flex
+}
+.calculate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:200px;
+
+    border: 3px solid rgb(22, 148, 211);
+    border-radius: 50px;
+}
+.button{
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    
+    font-size: 30px;
+    background-color: rgb(22, 148, 211);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+}
+.value{
+    height: 120px;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.value p{
+
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+height: 60px;
+width: 500px;
+border: 2px solid rgb(22, 148, 211);
+border-radius: 20px;
+}
+button:hover{
+    box-shadow: 10px 10px 10px grey;
+}
