@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+  list-style-type:none;
+}
+body{
+    height: 100%;
+    width:100%;
+}
+.nav{
+    position: relative;
+    top:-70px;
+    height:70px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    transition: top 1s ;
+    z-index:100;
+    border-radius: 10px;
+
+}
+.navp{
+    position: relative;
+     text-align: center;
+    top:10px;
+    color:azure;
+    font-weight: 900;
+    font-size: 35px;
+}
+/* *****************************main1********* */
+.main1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.p1{
+    display: inline-block;
+    white-space: nowrap;
+    transform: translateX(-100%);
+    animation: slide-in .6s forwards;
+}
+@keyframes slide-in {
+    to {
+        transform: translateX(0);
+    }}
+.main2{
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 250px;
+    
+     position:relative;
+     font-size: 30px;
+     margin: 50px;
+     transform :translateX(-100%);
+     animation : slide-in 1s forwards;
+     display:flex;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+.p2{
+    padding: 20px 20px;
+
+}
+.button{
+    padding-right:50px;
+    height:50px;
+position: relative;
+ left:4rem;
+}
+.button1{
+    padding:10px;
+    border:2px solid black;
+    border-radius:50px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+}
+.guessthenumber{
+    border: 3px solid black;
+    height:70vh;
+    margin:20px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:1 1 400px;
+    font-size: 20px;
+    font-weight: bolder;
+    transform :translateX(-100%);
+     animation : slide-in 1s forwards;
+}
+.input{
+    height:50px;
+}
+.number{
+    height:30px;
+    width:200px;
+}
+.submit-the-guess{
+    height:40px;
+}
+.submit{
+    padding:10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+}
+
+.lossed{
+    font-size: 30px;
+    font-weight: 900;
+    height:40vh;
+    border:3px solid black;
+    margin:1rem;
+    border-radius: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+   flex-direction: column;
+    transform :translateX(-100%);
+    animation : slide-in 1s forwards;
+    
+}
+.bu{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 1px lightgray ;
+}
